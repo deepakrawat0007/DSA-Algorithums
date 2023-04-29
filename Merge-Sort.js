@@ -1,4 +1,5 @@
-function MergeSort(arr){
+function MergeSort(arr){         // Merge Sort uses divide and Conqurer Rule In Which we divide the array in 2 parts
+                                 // and compare both and merge until they get sorted 
     if(arr.length <= 1){
         return arr
     }
@@ -41,4 +42,8 @@ function Merge(arr1 , arr2){
 }
 
 const arr = [2,5,1,9,7,3,7,6,120,10,15]
-console.log(MergeSort(arr))
+console.log(MergeSort(arr))  /*[
+    1, 2, 3,  5,  6,
+    7, 7, 9, 10, 15,
+  120
+]*/
